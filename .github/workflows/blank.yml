@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - '*'
-    tags:
-      - '*'
-    paths-ignore:
-      - helm/**
-      - .github/workflows/ci-helm-workflow.yml
-      - 'metrics/**'
   workflow_dispatch:
 
 jobs:
